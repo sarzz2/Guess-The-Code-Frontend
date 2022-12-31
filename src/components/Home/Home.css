@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap");
+
+.home-container {
+    position: absolute;
+    /* background-image: url("../assets/background.jpeg"); */
+    background-color: #f1f1ef;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.home-text-container {
+    font-family: "Bebas Neue", cursive;
+    position: relative;
+    font-size: 3em;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 5%;
+}
+
+.home-text-child {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.5em;
+}
+
+.ptg-container {
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.ptg-button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: 0.3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    width: 350px;
+    /* min-width: 150px; */
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #fff;
+    background-color: #1ed760;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.ptg-button:hover {
+    transform: scale(1.04);
+    background-color: #21e065;
+}

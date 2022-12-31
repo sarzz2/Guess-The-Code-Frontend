@@ -1,0 +1,117 @@
+.score {
+    text-align: center;
+    font-family: "Copperplate";
+    font-size: 4em;
+    font-weight: 900;
+}
+
+.code-block {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.option {
+    margin: auto;
+    width: 50%;
+}
+
+.option-disable {
+    margin: auto;
+    width: 70%;
+}
+
+.language-button {
+    display: inline-block;
+    margin: 5% 2%;
+    width: 150px;
+    background: #5e5df0;
+    border-radius: 999px;
+    box-shadow: #5e5df0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji,
+        "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system,
+        system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    word-break: break-word;
+    border: 0;
+}
+
+/* .language-button:disabled{
+    background-color: #666666;
+} */
+
+.language-button:hover:enabled {
+    background: #1e00ff;
+}
+
+.language-button:hover:disabled {
+    cursor: default;
+}
+
+.next {
+    padding: 15px 20px;
+}
+
+.arrow {
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.try-again {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(244, 216, 174, 0.6);
+    z-index: 9;
+}
+
+.try-again-container {
+    margin: auto;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.try-again-score {
+    font-size: 6em;
+    font-weight: 900;
+    font-family: "Copperplate";
+}
+
+.try-again-btn {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 200ms, background 200ms;
+}
+
+.try-again-btn:hover {
+    transform: translateY(-2px);
+}
