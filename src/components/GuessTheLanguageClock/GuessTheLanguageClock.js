@@ -14,7 +14,7 @@ function GuessTheLanguageClock() {
     const NextClick = useSelector(selectNextClickState);
     const setTryAgain = useDispatch();
     const setMessages = useDispatch();
-    const ws = new WebSocket("ws://127.0.0.1:8001/api/ws");
+    const ws = new WebSocket("ws://3.6.39.26:8001/api/ws");
 
     useEffect(() => {
         // Set the socket to the state so it can be closed later

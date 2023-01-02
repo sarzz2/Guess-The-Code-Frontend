@@ -15,7 +15,7 @@ import ButtonGroup from "./ButtonGroup";
 
 // Base URL for fetching code block
 const client = axios.create({
-    baseURL: "http://127.0.0.1:8001/api/code-block"
+    baseURL: "http://3.6.39.26/api/code-block"
 });
 
 function GuessTheLanguage() {
