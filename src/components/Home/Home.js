@@ -17,7 +17,7 @@ function Home() {
             <div className="home-text-container">
                 <h1>Guess The Code</h1>
                 <p className="home-text-child">
-                    A addictive game where you showcase your language knowledge!!
+                    An addictive game where you showcase your language knowledge!!
                 </p>
             </div>
             <div className="ptg-container">

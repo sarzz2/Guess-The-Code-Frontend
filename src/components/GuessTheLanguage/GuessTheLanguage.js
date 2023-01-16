@@ -103,7 +103,7 @@ function GuessTheLanguage() {
     };
 
     return (
-        <div>
+        <div className="gtc-container">
             <h1 className="score">Score: {score}</h1>
             <div className="code-block">
                 <SyntaxHighlighter style={dark} showLineNumbers>
